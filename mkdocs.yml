@@ -21,7 +21,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Projects:
-      - Proposition: proposition.md
-      - Suivi 1: suivi1.md
-      - Suivi 2: suivi2.md
+  - Proposition: proposition.md
+  - Suivi 1: suivi1.md
+  - Suivi 2: suivi2.md
+  - Rapport: rapport.md
