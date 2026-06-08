@@ -37,4 +37,6 @@ jobs:
         with:
           publish_dir: ./site
           publish_branch: gh-pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Use a personal access token stored in repo secrets (GH_PAGES_TOKEN).
+          # Create a PAT with repo scope and add it to Settings → Secrets → Actions as GH_PAGES_TOKEN.
+          github_token: ${{ secrets.GH_PAGES_TOKEN }}
