@@ -1,0 +1,27 @@
+site_name: My Docs
+theme: 
+  name: material
+plugins:
+  - search
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/VEILLE-TECHNOLOGIQUE
+      name: GitHub
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Proposition: proposition.md
+      - Suivi 1: suivi1.md
+      - Suivi 2: suivi2.md
